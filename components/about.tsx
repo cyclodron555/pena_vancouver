@@ -41,13 +41,15 @@ export function About() {
               return (
                 <div
                   key={benefit.id}
-                  className="p-6 bg-brand-light rounded-lg border border-brand-gray hover:border-brand-gold hover:shadow-lg transition-all"
+                  className="p-6 bg-white rounded-lg border border-brand-gray border-l-4 border-l-brand-gold hover:shadow-lg hover:border-brand-gold transition-all"
                 >
-                  <div className="mb-4 p-3 bg-brand-gold bg-opacity-10 rounded-lg w-fit">
-                    {IconComponent && <IconComponent size={28} className="text-brand-gold" />}
+                  <div className="flex items-start gap-4">
+                    {IconComponent && <IconComponent size={24} className="text-brand-gold flex-shrink-0 mt-1" />}
+                    <div>
+                      <h4 className="font-serif font-bold text-brand-navy mb-2">{benefit.title}</h4>
+                      <p className="text-gray-600">{benefit.description}</p>
+                    </div>
                   </div>
-                  <h4 className="font-serif font-bold text-brand-navy mb-2">{benefit.title}</h4>
-                  <p className="text-gray-600">{benefit.description}</p>
                 </div>
               )
             })}
