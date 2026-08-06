@@ -30,7 +30,7 @@ export function Hero() {
             <Link href="/join-us" className="inline-flex items-center justify-center px-6 py-3 bg-brand-gold text-brand-navy font-semibold rounded-lg hover:shadow-lg transition-shadow focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2">
               Join the Peña
             </Link>
-            <Link href="#about" className="inline-flex items-center justify-center px-6 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:bg-opacity-10 transition-colors focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2">
+            <Link href="#about" className="inline-flex items-center justify-center px-6 py-3 bg-white text-brand-navy font-semibold rounded-lg hover:shadow-lg transition-shadow focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2">
               Discover Our Community
             </Link>
           </div>
