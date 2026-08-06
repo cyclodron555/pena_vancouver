@@ -12,7 +12,7 @@ export const site = {
 
 export const contact = {
   phone: "+1 (778) 985-7196",
-  email: "contact@penamadridista.ca", // PLACEHOLDER - Replace with actual email
+  email: "madridistavancouver@gmail.com",
   location: "1180 Howe Street, Vancouver, BC, Canada",
   mapUrl: "https://maps.google.com/maps?q=1180+Howe+Street,+Vancouver", // Update with actual Maps link
 };

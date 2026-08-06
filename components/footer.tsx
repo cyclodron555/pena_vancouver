@@ -9,9 +9,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <div className="w-12 h-12 bg-brand-gold rounded-lg flex items-center justify-center text-brand-navy font-serif font-bold text-xl mb-4">
-              PM
-            </div>
+            <img 
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-uQ8u4UCjndErmkHrjf0Q69dkGOl29N.png" 
+              alt="Peña Madridista Vancouver" 
+              className="h-12 w-12 object-contain mb-4"
+            />
             <p className="text-gray-300 text-sm leading-relaxed">
               Vancouver&apos;s official Real Madrid supporters&apos; club and Canada&apos;s first officially registered fan club.
             </p>
