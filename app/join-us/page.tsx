@@ -40,12 +40,10 @@ export default function JoinUs() {
               </div>
 
               {/* Benefits Checklist */}
-              <div className="space-y-4">
+              <div className="space-y-3">
                 {benefits.map((benefit) => (
-                  <div key={benefit.id} className="flex items-start gap-4 p-4 bg-brand-light rounded-lg">
-                    <div className="p-2 bg-brand-gold bg-opacity-20 rounded-full flex-shrink-0 mt-1">
-                      <Check size={20} className="text-brand-gold" />
-                    </div>
+                  <div key={benefit.id} className="flex items-start gap-4 p-3 pl-4 border-l-4 border-l-brand-gold bg-white hover:bg-brand-light transition-colors rounded">
+                    <Check size={20} className="text-brand-gold flex-shrink-0 mt-0.5" />
                     <div>
                       <h3 className="font-semibold text-brand-navy">{benefit.title}</h3>
                       <p className="text-sm text-gray-600">{benefit.description}</p>
