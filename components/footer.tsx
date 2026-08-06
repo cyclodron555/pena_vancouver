@@ -1,12 +1,12 @@
 import Link from 'next/link'
-import { Mail, Phone, MapPin, Heart, Share2 } from 'lucide-react'
-import { site, contact, social, disclaimer } from '@/lib/config'
+import { Mail, Phone, MapPin } from 'lucide-react'
+import { site, contact, disclaimer } from '@/lib/config'
 
 export function Footer() {
   return (
     <footer className="bg-brand-navy text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
             <img 
@@ -75,34 +75,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Social */}
-          <div>
-            <h3 className="font-serif font-bold mb-4">Follow Us</h3>
-            <div className="flex gap-4">
-              {social.instagram && (
-                <a
-                  href={social.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-brand-gold transition-colors p-2 hover:bg-white hover:bg-opacity-10 rounded-lg"
-                  aria-label="Instagram"
-                >
-                  <Heart size={20} />
-                </a>
-              )}
-              {social.facebook && (
-                <a
-                  href={social.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-brand-gold transition-colors p-2 hover:bg-white hover:bg-opacity-10 rounded-lg"
-                  aria-label="Facebook"
-                >
-                  <Share2 size={20} />
-                </a>
-              )}
-            </div>
-          </div>
+
         </div>
 
         {/* Bottom */}
