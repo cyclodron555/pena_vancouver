@@ -25,11 +25,9 @@ export const membership = {
 };
 
 export const social = {
-  instagram: "https://instagram.com/penamadridista.vancouver", // PLACEHOLDER - Update with actual URLs
-  facebook: "https://facebook.com/penamadridistravancouver", // PLACEHOLDER
-  twitter: "https://twitter.com/penamadridistav", // PLACEHOLDER
+  instagram: "https://instagram.com/madridistavancouver",
+  facebook: "https://facebook.com/madridistavancouver",
   whatsapp: "https://wa.me/1234567890", // PLACEHOLDER - Update with group link
-  youtube: "https://youtube.com/@penamadridistav", // PLACEHOLDER
 };
 
 export const about = {

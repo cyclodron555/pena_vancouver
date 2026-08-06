@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Mail, Phone, MapPin, Heart, Share2, Video, MessageSquare } from 'lucide-react'
+import { Mail, Phone, MapPin, Heart, Share2 } from 'lucide-react'
 import { site, contact, social, disclaimer } from '@/lib/config'
 
 export function Footer() {
@@ -99,28 +99,6 @@ export function Footer() {
                   aria-label="Facebook"
                 >
                   <Share2 size={20} />
-                </a>
-              )}
-              {social.twitter && (
-                <a
-                  href={social.twitter}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-brand-gold transition-colors p-2 hover:bg-white hover:bg-opacity-10 rounded-lg"
-                  aria-label="Twitter"
-                >
-                  <MessageSquare size={20} />
-                </a>
-              )}
-              {social.youtube && (
-                <a
-                  href={social.youtube}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-brand-gold transition-colors p-2 hover:bg-white hover:bg-opacity-10 rounded-lg"
-                  aria-label="YouTube"
-                >
-                  <Video size={20} />
                 </a>
               )}
             </div>
