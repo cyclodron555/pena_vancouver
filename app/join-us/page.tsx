@@ -74,31 +74,25 @@ export default function JoinUs() {
               </div>
 
               {/* Payment Info */}
-              <div className="bg-white rounded-lg shadow-lg p-8">
+              <div className="bg-white rounded-lg shadow-lg p-8 border-l-4 border-l-brand-gold">
                 <h3 className="font-serif font-bold text-2xl text-brand-navy mb-6">Secure Payment</h3>
                 <div className="space-y-4 mb-8">
                   <div className="flex items-start gap-4">
-                    <div className="p-2 bg-brand-gold bg-opacity-10 rounded-full">
-                      <Check size={20} className="text-brand-gold" />
-                    </div>
+                    <Check size={20} className="text-brand-gold flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-brand-navy">PayPal Processing</p>
                       <p className="text-sm text-gray-600">All payments are processed securely through PayPal</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="p-2 bg-brand-gold bg-opacity-10 rounded-full">
-                      <Check size={20} className="text-brand-gold" />
-                    </div>
+                    <Check size={20} className="text-brand-gold flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-brand-navy">Auto-Renewal</p>
                       <p className="text-sm text-gray-600">Your subscription renews automatically each month</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <div className="p-2 bg-brand-gold bg-opacity-10 rounded-full">
-                      <Check size={20} className="text-brand-gold" />
-                    </div>
+                    <Check size={20} className="text-brand-gold flex-shrink-0 mt-1" />
                     <div>
                       <p className="font-semibold text-brand-navy">Cancel Anytime</p>
                       <p className="text-sm text-gray-600">No hidden fees, cancel from your PayPal account</p>
