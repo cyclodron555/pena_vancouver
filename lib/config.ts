@@ -12,7 +12,7 @@ export const site = {
 
 export const contact = {
   phone: "+1 (778) 985-7196",
-  email: "contact@penamadridista.ca", // PLACEHOLDER - Replace with actual email
+  email: "madridistavancouver@gmail.com",
   location: "1180 Howe Street, Vancouver, BC, Canada",
   mapUrl: "https://maps.google.com/maps?q=1180+Howe+Street,+Vancouver", // Update with actual Maps link
 };
@@ -25,11 +25,9 @@ export const membership = {
 };
 
 export const social = {
-  instagram: "https://instagram.com/penamadridista.vancouver", // PLACEHOLDER - Update with actual URLs
-  facebook: "https://facebook.com/penamadridistravancouver", // PLACEHOLDER
-  twitter: "https://twitter.com/penamadridistav", // PLACEHOLDER
+  instagram: "https://instagram.com/madridistavancouver",
+  facebook: "https://facebook.com/madridistavancouver",
   whatsapp: "https://wa.me/1234567890", // PLACEHOLDER - Update with group link
-  youtube: "https://youtube.com/@penamadridistav", // PLACEHOLDER
 };
 
 export const about = {

@@ -20,9 +20,7 @@ export function Contact() {
             <div className="space-y-6">
               {/* Phone */}
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-brand-gold bg-opacity-10 rounded-lg flex-shrink-0">
-                  <Phone size={24} className="text-brand-gold" />
-                </div>
+                <Phone size={20} className="text-brand-gold flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-semibold text-brand-navy mb-1">Phone</p>
                   <a
@@ -36,9 +34,7 @@ export function Contact() {
 
               {/* Email */}
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-brand-gold bg-opacity-10 rounded-lg flex-shrink-0">
-                  <Mail size={24} className="text-brand-gold" />
-                </div>
+                <Mail size={20} className="text-brand-gold flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-semibold text-brand-navy mb-1">Email</p>
                   <a
@@ -52,9 +48,7 @@ export function Contact() {
 
               {/* Location */}
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-brand-gold bg-opacity-10 rounded-lg flex-shrink-0">
-                  <MapPin size={24} className="text-brand-gold" />
-                </div>
+                <MapPin size={20} className="text-brand-gold flex-shrink-0 mt-1" />
                 <div>
                   <p className="font-semibold text-brand-navy mb-1">Location</p>
                   <p className="text-gray-600">{contact.location}</p>
