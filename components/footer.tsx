@@ -33,16 +33,6 @@ export function Footer() {
                   About
                 </Link>
               </li>
-              <li>
-                <Link href="/#events" className="text-gray-300 hover:text-brand-gold transition-colors">
-                  Events
-                </Link>
-              </li>
-              <li>
-                <Link href="/join-us" className="text-gray-300 hover:text-brand-gold transition-colors">
-                  Join Us
-                </Link>
-              </li>
             </ul>
           </div>
 
