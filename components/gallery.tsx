@@ -14,7 +14,7 @@ const galleryImages = [
     id: 2,
     title: 'Brotherhood',
     description: 'Supporters bonding in Real Madrid jerseys',
-    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/284647627_170516735336224_5211351383707495406_n-gdDXNOSLIXDFRVxeEvSTWTuCY5Ao9J.jpg',
+    image: '/images/brotherhood-replacement.jpeg',
   },
   {
     id: 3,
