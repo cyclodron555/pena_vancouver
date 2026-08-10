@@ -12,7 +12,7 @@ const galleryImages = [
   },
   {
     id: 2,
-    title: 'Brotherhood',
+    title: 'Matchday Celebration',
     description: 'Supporters bonding in Real Madrid jerseys',
     image: '/images/brotherhood-replacement.jpeg',
   },
